@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Red+Rose:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
+      <style type = "text/css">
+          #header{
+              background-color: lightgray;
+          }
+          #header h1{
+              color: saddlebrown;
+              font-family: "Cinzel", sans-serif;
+              font-weight: 400;
+          }
+          .jumbheader{
+              font-family: Cinzel;
+              font-weight: 700;
+              letter-spacing: 3px;
+          }
+          
+          .card{
+              border: 2px solid black;
+              border-top: none;
+              border-radius: 30px;
+          }
+          .card-title{
+              font-family: "Times", cursive, serif;
+              line-height: 45px;
+              color: red;
+              letter-spacing: 3px;
+              font-weight: 400;
+          }
+          .card-text{
+              color: purple;
+              font-weight: 500;
+          }
+          #search{
+              font-family: "Times", cursive, serif;
+              letter-spacing: 3px;
+              color: red;
+              font-weight: 300;
+              font-size: 22px;
+          }
+      </style>
+    <title>Flipkart Scraper</title>
+  </head>
+  <body>
+
+        <div class="row justify-content-around my-5">
+          
+          <div class="col-sm-6">
+                
+                  <div class="card text-center">
+                    <img class="card-img-top" src="https://www.nextbigbrand.in/wp-content/uploads/2019/08/article_banner_press_release_26_03_19_v1-01.jpg" alt="">
+                    <div class="card-body">
+                      <h3 class="card-title">FLIPKART SCRAPER</h3>
+                      <p class="card-text">
+                          Search for mobile phones, laptops, smartwatches, tablets, etc.
+                      </p>
+                <!-- Form starts here -->
+                <!--                          -->
+                      <form method = "POST" action = "/submit/">
+                        <div class="form-group">
+                          <label for="category" id="search">SEARCH HERE</label>
+                          <input type="text" class="form-control" id="category" name = "category"     placeholder="search here">
+                        </div>
+                        <button type="submit" class="btn btn-outline-success">Submit</button>
+                      </form>
+
+                      <!-- <a href="" class="btn btn-outline-success btn-sm">View Page</a>
+                      <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a> -->
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+           
+          
+         
+       
+        
+    
+
+
+
+      
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+  </body>
+</html>
